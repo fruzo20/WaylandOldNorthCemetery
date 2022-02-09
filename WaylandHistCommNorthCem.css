@@ -1,0 +1,78 @@
+/*
+
+Author: Vincent Pak
+
+
+*/
+
+body{
+    background: url("img/background.jpg") no-repeat left center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 50% 100%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 300%;
+}
+
+label {
+    color: white;
+}
+
+#searchbar{
+    display: block;
+    float: left;
+    height: 200%;
+}
+
+#searchButton{
+    float: left;
+    cursor: pointer;
+}
+
+#searchRec{
+    color: red;
+    text-decoration: underline;
+    float: left;
+    cursor: pointer;
+    font-size: 150%;
+}
+
+#results #resultImg{
+    float: left;
+    width: 100%;
+}
+#results{
+    text-align: justify;
+    float: left;
+    width: 50%;
+}
+#results .description{
+    font-size: 150%;
+    background-color: white;
+}
+
+.mapAlignment{
+    text-align: justify;
+    float: right;
+    width: 50%;
+}
+.mapAlignment #key{
+    font-size: 150%;
+    padding-top: 0;
+    cursor: pointer;
+}
+.mapAlignment img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#keyFormat {
+    border: solid black 2px;
+    background-color: white;
+}
+
